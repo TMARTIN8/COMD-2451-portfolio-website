@@ -1,78 +1,98 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Island Spice | Jamaican Cuisine</title>
+  <meta charset="UTF-8">
+  <title>Tyheim Martin | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <!-- Start Content -->
-<div id="home" class="w3-content">
 
-<!-- Image -->
-<img src="img_hamburger.jpg" alt="Catering" style="width:100%">
+  <!-- Navigation Bar -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+<nav class="w3-bar w3-black w3-center">
+  <div class="w3-bar w3-black w3-center w3-padding-small" style="display: inline-block;">
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-light-grey">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-light-grey">About</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hover-light-grey">Portfolio</a>
+    <a href="resume.html" class="w3-bar-item w3-button w3-hover-light-grey">Resume</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hover-light-grey">Contact</a>
+  </div>
+</nav>
+  </header>
 
-<!-- End Content -->
-</div>
-  <nav>
-    <ul>
-      <li><a href="#welcome">Welcome</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#menu">Menu</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- Main Layout -->
+  <div class="main-container">
 
-  <section id="welcome">
-    <h1>Welcome to Island Spice</h1>
-    <p>Experience the taste of Jamaica in every bite.</p>
-  </section>
+    <!-- Sidebar Profile -->
+    <aside class="sidebar">
+      <img src="assets/pfp.jpg" alt="Tyheim Martin" class="profile-pic">
+      <h2>Tyheim Martin</h2>
+      <p>Graphic Designer<br>Illustrator<br>Animator</p>
+    <a href="https://www.instagram.com/champloo_ty" target="_blank"
+   class="w3-button w3-black w3-hover-light-grey w3-margin-top">
+  @Champloo_ty
+</a>
+    </aside>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Island Spice brings you authentic Jamaican cuisine made with traditional spices, island flavors, and lots of love. From jerk chicken to oxtail stew, our dishes celebrate Caribbean heritage.</p>
-  </section>
+    <!-- Portfolio Content -->
+    <main class="portfolio" id="portfolio">
+      <section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    Hi, I’m Tyheim Martin, a graphic designer, illustrator, and animator based in New York. I specialize in bold, culturally inspired visual storytelling through digital and traditional media. My work often explores identity, motion, and emotion. I’m currently studying Communication Design at City Tech.
+  </p>
+</section>
+      <h2>My Work</h2>
+      <div class="gallery">
 
-  <section id="menu">
-    <h2>Our Menu</h2>
+        <!-- Artwork 1-10 -->
+        <div class="item">
+          <img src="assets/duimage.png" alt="Dual Warriors Artwork">
+          <p><strong>“Dual Warriors”</strong><br>Inspired by Afro Samurai and manga-style dynamics.</p>
+        </div>
+        <div class="item">
+          <img src="assets/duimage-2.png" alt="Unmasked Truths">
+          <p><strong>“Unmasked Truths”</strong><br>Two-part visual piece on identity and conformity.</p>
+        </div>
+        <div class="item">
+          <img src="assets/duimage-3.png" alt="Shadowed Honor">
+          <p><strong>“Shadowed Honor”</strong><br>Stylized moment of silent resolve.</p>
+        </div>
+        <div class="item">
+          <img src="assets/nlu.jpg" alt="New Light Underground">
+          <p><strong>“New Light Underground”</strong><br>Abstract motion and rebellion.</p>
+        </div>
+        <div class="item">
+          <img src="assets/nlu-2.jpg" alt="Echo Frame">
+          <p><strong>“Echo Frame”</strong><br>Muted tones of memory and distortion.</p>
+        </div>
+        <div class="item">
+          <img src="assets/nlu-3.jpg" alt="Flow Sequence">
+          <p><strong>“Flow Sequence”</strong><br>Interconnected rhythm and isolation.</p>
+        </div>
+        <div class="item">
+          <img src="assets/rd.png" alt="Red Drift">
+          <p><strong>“Red Drift”</strong><br>Bold directional color and character focus.</p>
+        </div>
+        <div class="item">
+          <img src="assets/rd-2.jpg" alt="Masked Parade">
+          <p><strong>“Masked Parade”</strong><br>Emotion and facade.</p>
+        </div>
+        <div class="item">
+          <img src="assets/rd-3.png" alt="Aftershock">
+          <p><strong>“Aftershock”</strong><br>Stylized impact and chaos.</p>
+        </div>
 
-    <div class="course">
-      <h3>Breakfast</h3>
-      <ul>
-        <li><strong>Ackee & Saltfish</strong> – $10.99<br>Jamaica’s national dish served with fried dumplings and banana.</li>
-        <li><strong>Callaloo & Boiled Food</strong> – $9.49<br>Steamed callaloo served with yam, dumpling, and banana.</li>
-        <li><strong>Festival & Fried Plantains</strong> – $6.99<br>Sweet fried dough and golden plantains.</li>
-      </ul>
-    </div>
+      </div> <!-- Close gallery -->
+    </main> <!-- Close main -->
 
-    <div class="course">
-      <h3>Lunch</h3>
-      <ul>
-        <li><strong>Jerk Chicken</strong> – $12.99<br>Spicy grilled chicken served with rice and peas.</li>
-        <li><strong>Curry Goat</strong> – $13.99<br>Tender goat in curry sauce with white rice or roti.</li>
-        <li><strong>Escovitch Fish</strong> – $14.49<br>Fried fish topped with spicy pickled veggies.</li>
-      </ul>
-    </div>
+  </div> <!-- Close main-container -->
 
-    <div class="course">
-      <h3>Dinner</h3>
-      <ul>
-        <li><strong>Oxtail Stew</strong> – $15.99<br>Slow-cooked oxtail with butter beans and rice & peas.</li>
-        <li><strong>Brown Stew Chicken</strong> – $12.49<br>Marinated chicken in rich brown gravy, served with plantains.</li>
-        <li><strong>Jerk Tofu (Vegan)</strong> – $11.49<br>Spiced tofu with coconut rice and steamed cabbage.</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Island Spice, 456 Caribbean Way, Bronx, NY 10466</p>
-    <p>Email: info@islandspicejamaica.com</p>
-    <p>Phone: (718) 555-8765</p>
-  </section>
-
+  <footer>
+  <p>&copy; 2025 Tyheim Martin. All rights reserved.</p>
+</footer>
 </body>
 </html>
